@@ -13,11 +13,40 @@ body {
 
 .container {
   background-color: white;
-  max-width: 30rem;
+  min-width: 30%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2.5rem;
+  border-radius: 5px;
+}
+
+.contain-div {
   display: flex;
-  height: 20rem;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.input-box {
+  padding: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: #6a0659;
+  color: white;
+  border: solid #6a0659;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #5c054d;
+  border: solid #5c054d;
 }
 
 /*# sourceMappingURL=style.css.map */
