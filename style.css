@@ -2,10 +2,13 @@ body {
   background-image: url(/images/background3.jpg);
   background-size: cover;
   min-height: 30rem;
+  font-family: "Gotham SSm A", "Gotham SSm B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .logo {
   color: white;
+  margin: auto;
+  width: 15%;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -13,7 +16,8 @@ body {
 
 .container {
   background-color: white;
-  min-width: 35%;
+  min-width: 37%;
+  max-width: 37%;
   margin-left: auto;
   margin-right: auto;
   padding: 2.5rem;
@@ -55,6 +59,20 @@ body {
   border: solid #5c054d;
 }
 
+.pass-text {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #3b3b3b;
+}
+.pass-text-div {
+  display: flex;
+}
+.pass-text-div-pass {
+  text-decoration: none;
+}
+
 .icon {
   height: 2rem;
   margin: 0.5rem;
@@ -70,9 +88,21 @@ body {
   margin-left: 15%;
 }
 
+.warning {
+  font-size: 0.8rem;
+  color: #c40000;
+  text-align: center;
+}
+
 .bankid {
   display: flex;
   flex-direction: row;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 2px;
+}
+.bankid:hover {
+  background-color: #f0f0f0;
 }
 
 /* Box sizing rules */
