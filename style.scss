@@ -12,16 +12,30 @@ body {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 30rem) {
+        width: 70%;
+    }
+    @media screen and (max-width: 50rem) and (min-width: 30rem) {
+        width: 50%;
+    }
 }
 
 .container {
     background-color: white;
-    min-width: 37%;
-    max-width: 37%;
+    width: 37%;
+    
     margin-left: auto;
     margin-right: auto;
     padding: 2.5rem;
     border-radius: 5px;
+
+    @media screen and (max-width: 30rem) {
+        width: 90%;
+    }
+    @media screen and (max-width: 50rem) and (min-width: 30rem) {
+        width: 70%;
+    }
 }
 
 .contain-div {
