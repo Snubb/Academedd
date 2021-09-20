@@ -8,7 +8,7 @@ body {
 .logo {
     color: white;
     margin: auto;
-    width: 15%;
+    width: 15rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -23,12 +23,13 @@ body {
 
 .container {
     background-color: white;
-    width: 37%;
+    width: 30rem;
     
     margin-left: auto;
     margin-right: auto;
     padding: 2.5rem;
     border-radius: 5px;
+    padding-top: 2rem;
 
     @media screen and (max-width: 30rem) {
         width: 90%;
@@ -41,8 +42,8 @@ body {
 .contain-div {
     display: flex;
     flex-direction: column;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .d-flex {
@@ -76,11 +77,11 @@ body {
 }
 
 .pass-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: rgb(59, 59, 59);
+    color: rgb(92, 92, 92);
 
     &-div {
         display: flex;
@@ -94,6 +95,7 @@ body {
 .icon {
     height: 2rem;
     margin: 0.5rem;
+    position: absolute;
 }
 
 .icon-left {
@@ -103,11 +105,12 @@ body {
 .bankid-text {
     display: flex;
     align-self: center;
-    margin-left: 15%;
+    margin: auto;
+    font-size: 0.8rem;
 }
 
 .warning {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: rgb(196, 0, 0);
     text-align: center;
 }
@@ -118,6 +121,7 @@ body {
     background-color: white;
     border: 0.5px solid gray;
     border-radius: 2px;
+    height: 3rem;
 
     &:hover {
         background-color: darken($color: white, $amount: 6);
